@@ -1,0 +1,271 @@
+body {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Play", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#header {
+  background: #140429;
+}
+#header a {
+  color: #fff;
+}
+
+h2 span {
+  color: #35fff3;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+i.bi.bi-list {
+  color: white;
+  font-size: 40px;
+}
+.nft-btn {
+  background: #35fff3;
+}
+
+/* main title CSS */
+.main-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+/* Hero CSS */
+#hero {
+  background: rgb(16, 1, 31);
+  background: linear-gradient(
+    343deg,
+    rgba(16, 1, 31, 1) 50%,
+    rgba(92, 88, 143, 1) 100%
+  );
+  padding: 100px 0;
+}
+#hero h2 {
+  font-size: 42px;
+}
+#hero h1 {
+  color: #35fff3;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.nft-carousel {
+  position: relative;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: unset !important;
+  right: 0;
+  bottom: -45px;
+  width: 30px;
+  justify-content: flex-end;
+}
+
+.bi-arrow-left,
+.bi-arrow-right {
+  border: 1px solid #fcfcfc;
+  padding: 5px 8px;
+  color: #35fff3;
+}
+
+.bi-arrow-left:hover,
+.bi-arrow-right:hover {
+  background: #423e57;
+}
+
+.carousel-control-prev {
+  left: unset;
+  right: 100px;
+}
+
+/* About Seciton  */
+#about {
+  padding: 100px 0;
+  background: rgb(20, 4, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 4, 41, 1) 0%,
+    rgba(65, 67, 106, 1) 100%
+  );
+}
+
+/* CTA CSS  */
+#cta {
+  background: #10011f;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Road Map CSS */
+#roadmap {
+  background: rgb(92, 88, 143);
+  background: linear-gradient(
+    145deg,
+    rgba(92, 88, 143, 1) 0%,
+    rgba(21, 0, 48, 1) 50%,
+    rgba(92, 88, 143, 1) 100%
+  );
+  padding: 100px 0;
+}
+#after {
+  padding-top: 80px;
+}
+
+.list-area .title {
+  margin-bottom: 25px;
+}
+
+.list > ol {
+  counter-reset: number;
+  list-style-type: none;
+}
+.list ol ul li {
+  list-style-type: none;
+}
+
+.list ol li {
+  line-height: 47px;
+}
+.list ol li span {
+  padding-left: 20px;
+}
+
+/* The "\a0" is a space */
+.list ol > li::before {
+  counter-increment: number;
+  content: counter(number) "\a0";
+}
+
+/* FAQ's CSS */
+#faq {
+  background: #150625;
+  padding: 100px 0;
+}
+
+.accordion-item {
+  background: #18073a;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.accordion-item h2 button {
+}
+
+.accordion-button:not(.collapsed) {
+  background: #18073a;
+  color: #fff;
+}
+
+.accordion-button {
+  background: #18073a;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: unset !important;
+  content: "\F286";
+  font-family: bootstrap-icons !important;
+}
+
+.accordion-button::after {
+  background: unset;
+  content: "\F282" !important;
+  font-family: bootstrap-icons !important;
+}
+
+/* team Css  */
+#team {
+  background: rgb(21, 0, 48);
+  background: linear-gradient(
+    145deg,
+    rgba(21, 0, 48, 1) 50%,
+    rgba(92, 88, 143, 1) 100%
+  );
+  padding: 100px 0;
+}
+
+.team-member {
+  text-align: center;
+}
+.team-img {
+  margin-bottom: 15px;
+}
+.team-img img {
+  border-radius: 100%;
+}
+
+p.deg {
+  color: #35fff3;
+}
+
+#join {
+  background: rgb(16, 1, 31);
+  background: linear-gradient(
+    145deg,
+    rgba(16, 1, 31, 1) 50%,
+    rgba(92, 88, 143, 1) 100%
+  );
+  padding: 100px 0;
+  text-align: center;
+}
+
+#join a {
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* footer Css  */
+#footer {
+  background: rgb(21, 0, 48);
+  background: linear-gradient(
+    145deg,
+    rgba(21, 0, 48, 1) 50%,
+    rgba(92, 88, 143, 1) 100%
+  );
+  padding: 100px 0 80px 0;
+  text-align: center;
+}
+
+.ft-title {
+  font-weight: bold;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer ul li a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+#footer ul li a i {
+  margin-right: 10px;
+}
+
+.social-media {
+  margin-top: 80px;
+}
+
+.divider {
+  padding-top: 50px;
+  border-bottom: 2px solid #fff;
+}

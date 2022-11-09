@@ -1,0 +1,268 @@
+/* Css by sumon */
+body {
+    background: #10011F;
+}
+.logo img {
+    width: 30px;
+}
+.logo img {
+    width: 30px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+
+}
+ul.Nav {
+    color: #fff;
+    padding: 25px 0px;
+}
+div#header {
+    padding: 45px 0px;
+}
+
+li.nav-item a {
+    color: #fff;
+}
+button.btn.btn-info {
+    width: 140px;
+    height: 48px;
+    background: #35FFF3 !important;
+}
+ul.nav.justify-content-center {
+    padding-top: 4px;
+}
+
+div#first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-section {
+    padding-top: 25%;
+}
+
+.left-section h5 {
+    width: 277px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.left-section h2 {
+    color: #35FFF3;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+div#introduction {
+    padding: 80px 0px;
+}
+
+
+
+.right-section img {
+    width: 100%;
+}
+.h2 {
+    color: #35FFF3;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: play;
+}
+
+.left-content p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+div#behind-story {
+    text-align: center;
+    color: #fff;
+    padding: 80px 0px;
+    background-color: #150030;
+}
+.title h2 {
+    font-size: 42px;
+    line-height: 48px;
+    font-weight:700;
+    lotter:5%;
+}
+
+
+.title p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 400;
+}
+.title span {
+    color: #35FFF3;
+}
+
+
+
+@media (min-width:768px){
+    .rightImg {
+        margin-left: 170px;
+        padding-top: 10px;
+    }
+    
+    .RightImgg img {
+        width: 410px;height: 400px;margin-top: 200px;margin-left: 50px;
+    }
+    div#scotch-noblemen {
+        padding: 80px 0px;
+    }
+    
+    .LeftImgM img {
+        width: 70%;
+        padding-top: 100px;
+    }
+    .LeftImgm {
+        padding-top: 68px;
+    }
+    .right-content img {
+        display: flex;
+        width:62%;
+        flex-direction: column;
+        justify-content: right;
+        justify-items: right;
+        margin-left: 160px;
+    }
+}
+@media (max-width:767px){
+    .RightImgg img {
+        width: 100%;
+    }
+    .LeftImgm img {
+        width: 100%;
+    }
+    .right-content img {
+        width: 100%;
+    }
+    
+}
+
+
+.leftCols p {
+    color: #fff;
+    padding-top: 20px;
+}
+span{
+    color: #35FFF3;
+}
+h4 {
+    color: #fff;
+}
+div#scottish-Nobles {
+    padding: 80px 0px;
+    background-color: #150525;
+}
+
+div#daos {
+    padding: 80px 0px;
+    background-color: #150030;
+}
+
+.LeftImg img {
+    width: 100%;
+}
+
+.RightImg {
+    padding-top: 25%;
+}
+.RightImg h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.RightImg p {
+    color: #fff;
+}
+
+/*.rightImg {*/
+/*    width: 100%;*/
+/*}*/
+.RightImg p {
+    padding-top: 25px;
+}
+
+div#Future {
+    padding: 80px 0px;
+    background: #211544;
+}
+div#Scotch {
+    padding: 80px 0px;
+    margin-top: -80px;
+    padding-bottom: 130px;
+}
+div#blank {
+    padding: 220px;
+}
+.footer {
+    background: #150030;
+    text-align: center;
+    color: #fff !IMPORTANT;
+    padding: 80px;
+}
+.icon-section {
+    padding: 50px;
+}
+
+.icon-section img {
+    width: unset;
+}
+
+.leftCols h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+h2 {}
+
+.footer-title h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.footer-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button.btn.btn-info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
